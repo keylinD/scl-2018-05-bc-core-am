@@ -1,6 +1,27 @@
-/* Acá va tu código */
+
 h1{
 	text-align: center;
     color: cadetblue;
     font-family: monospace;
+}
+b{
+	font-family: arial;
+	color: cadetblue;
+}
+
+.text1{
+	resize: none;
+	border-style: dotted;
+	border-width: 6px;
+}
+.text2{
+	resize: none;
+	border-style: dotted;
+	border-width: 6px;
+}
+.text3{
+	resize: none;
+	border-style: dotted;
+	border-width: 6px;
+
 }
