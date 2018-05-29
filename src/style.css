@@ -1,3 +1,6 @@
+.structure{
+	background-color: #7fffa58a;
+}
 
 h1{
 	text-align: center;
@@ -9,6 +12,20 @@ b{
 	color: cadetblue;
 }
 
+.img{
+	border-radius: 20px;
+	border: 1px solid  #e91e63;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*img.poarid{
+	width: 20%;
+	background-color: #e91e63;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 25px;
+	
+}*/
 .text1{
 	resize: none;
 	border-style: dotted;
