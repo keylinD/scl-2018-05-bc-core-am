@@ -15,7 +15,7 @@
 
 		<!-- Una explicación sobre el cifrado césar -->
 		 <p> - En criptografía, el cifrado César, también conocido como cifrado por desplazamiento, código de César o desplazamiento de César, es una de las técnicas decodificación más simples y más usadas. Es un tipo de cifrado por sustitución en el que una letra en el texto original es reemplazada por otra letra que se encuentra un número fijo de posiciones más adelante en el alfabeto. Por ejemplo, con un desplazamiento de 3, la A sería sustituida por la D (situada 3 lugares a la derecha de la A ), la B sería reemplazada por la E, etc.</p>
-         <p> - El Cifrado César mueve cada letra un determinado número de espacios en el alfabeto. En este ejemplo se usa un desplazamiento de tres espacios, asi que una B en el texto original se convierte en una E en el texto codificado.</p>
+    <p> - El Cifrado César mueve cada letra un determinado número de espacios en el alfabeto. En este ejemplo se usa un desplazamiento de tres espacios, asi que una B en el texto original se convierte en una E en el texto codificado.</p>
 
     <!-- Agregar una imagen  -->
         
@@ -27,13 +27,18 @@
 
 		<!-- Creación de TextArea-->
 		<div class="area">
-			<textarea class="text1" placeholder="Introduzca un Texto" rows="2" cols="30"></textarea> 
-			<textarea class="text2" placeholder="Introduzca un Texto" rows="2" cols="30"></textarea>
-			<textarea class="text3" placeholder="Introduzca un Texto" rows="2" cols="30" ></textarea>
+			<textarea id="text1" class="text1" placeholder="Introduzca un Texto" rows="2" cols="30"></textarea> 
+			<div class=" num">
+			<h1>Eliga la posición a Cifrar/Descifrar </h1> <input type="number" name="points" min="0" max="100" placeholder="numero" >
+			</div>
+			<textarea class="text2" placeholder="Cifrar / Descifrar" rows="2" disabled="disabled" ></textarea>
 		</div>
+		<!--Creacion de botones-->
+<div class="button">
 		<button id="code"> Cifrar</button>
 		<button id="decipher">Descifrar</button>
-		<button id="reset"> Borrar</button>
+		<button id="reset" onclick="EliminarTexto()"> Borrar</button>
+	  </div>
 	</section>
 
   <div id="root"></div>

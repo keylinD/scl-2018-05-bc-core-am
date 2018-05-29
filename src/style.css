@@ -26,19 +26,45 @@ b{
 	margin-bottom: 25px;
 	
 }*/
+.area{
+	text-align: center;
+
+	margin-left: 40px;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
 .text1{
 	resize: none;
+	width: 400px;
+	height: 100px;
 	border-style: dotted;
+	border-color: #2196F3;
 	border-width: 6px;
+	margin-right: 10px;
 }
 .text2{
 	resize: none;
+	width: 400px;
+	height: 100px;
 	border-style: dotted;
+  border-color: #2196F3;
 	border-width: 6px;
+	margin-right: 10px;
 }
-.text3{
-	resize: none;
-	border-style: dotted;
-	border-width: 6px;
+.num{
+	text-align: center;
+	display: block;
+	margin-left: 40px;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
 
+.button{
+	text-align: center;
+	display: block;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
 }
