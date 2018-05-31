@@ -32,15 +32,19 @@
 
 		<!-- Creación de TextArea-->
 	<div class="area">
-			<textarea id="text1" class="text1" placeholder="Introduzca un Texto" rows="2" cols="30"></textarea> 
+		<!--Recultado-->
+		<textarea name="resultado" id="result" class="result" cols="30" rows="2" disabled="disabled"></textarea>
+			
 	<div class=" num">
-			<h1>Eliga la posición a Cifrar/Descifrar </h1> <input type="number" name="points" min="0" max="100" placeholder="numero" >
+			<h1>Eliga la posición a Cifrar/Descifrar </h1> <input id="offset" type="number" name="points" min="0" max="100" placeholder="numero" >
 	</div>
-	<textarea class="text2" placeholder="Cifrar / Descifrar" rows="2" disabled="disabled" ></textarea>
+	<!--Cifrar-->
+	<textarea id="textEncryption" class="text1" placeholder="Cifrar" rows="2" cols="30"></textarea> 
+		<!--Descifrar-->
+		<textarea id="textDecipher" class="text2" placeholder=" Descifrar" rows="2" cols="30"  ></textarea>
+		
 	</div>
-
 		<!--Creacion de botones-->
-
 	<div class="button">
 			<button id="code"> Cifrar</button>
 			<button id="decipher">Descifrar</button>

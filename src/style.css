@@ -52,6 +52,15 @@ b{
 	border-width: 6px;
 	margin-right: 10px;
 }
+.result{
+	resize: none;
+	width: 400px;
+	height: 100px;
+	border-style: dotted;
+  border-color: #2196F3;
+	border-width: 6px;
+	margin-right: 10px;
+}
 .num{
 	text-align: center;
 	display: block;
