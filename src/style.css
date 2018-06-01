@@ -4,14 +4,17 @@
 
 h1{
 	text-align: center;
-    color: #6c5fa0;
-    font-family: monospace;
+  color: #6c5fa0;
+	font-family: 'Arvo', serif;
 }
 b{
-	font-family: arial;
+	font-family: 'Pacifico', cursive;
 	color: #6c5fa0;
+	font-size: 30px;
 }
-
+p{
+	font-family: 'Arvo', serif;
+}
 .img{
 	border-radius: 20px;
 	border: 1px solid  #e91e63;
@@ -19,13 +22,6 @@ b{
 	margin-left: auto;
 	margin-right: auto;
 }
-/*img.poarid{
-	width: 20%;
-	background-color: #e91e63;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
-	margin-bottom: 25px;
-	
-}*/
 .area{
 	text-align: center;
 
@@ -64,7 +60,7 @@ b{
 .num{
 	text-align: center;
 	display: block;
-	margin-left: 40px;
+	margin-left: 30px;
 	margin-right: 20px;
 	margin-top: 20px;
 	margin-bottom: 10px;

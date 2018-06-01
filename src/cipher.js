@@ -7,10 +7,10 @@ window.cipher = {
       
       let toasciiCode = stringCode.charCodeAt(i);
       
-    if (64 < toasciiCode && toasciiCode < 90) {
+    if (toasciiCode >=65 && toasciiCode < 91) {
       result += String.fromCharCode((toasciiCode - 65 + parseInt(offset))% 26 + 65);
       
-      }else if ( 97 < toasciiCode   && toasciiCode < 122) {
+      }else if (toasciiCode >=97 && toasciiCode < 122) {
         result += String.fromCharCode((toasciiCode - 97 + parseInt(offset))% 26 + 97);
       }else{
         //result +=stringCode.charAt(i);
@@ -25,9 +25,9 @@ window.cipher = {
     let encoded = ""
     for (let i = 0; i < stringEncode.length; i++) {
       let todasciiCode = stringEncode.charCodeAt(i) 
-    if (64 < todasciiCode && todasciiCode <90){
+    if (todasciiCode >= 65 && todasciiCode <91){
       encoded += String.fromCharCode((todasciiCode - 90 - parseInt(offset))% 26 + 90);
-    }else if (97 < todasciiCode && todasciiCode < 122){
+    }else if (todasciiCode >= 97 && todasciiCode < 122){
       encoded += String.fromCharCode((todasciiCode - 122 - parseInt(offset))% 26 + 122);
     }else{
       result += String.fromCharCode(todasciiCode);

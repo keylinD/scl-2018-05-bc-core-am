@@ -1,10 +1,8 @@
 /* Acá va tu código */
-/*function EliminarTexto(){
-document.getElementById("reset").value =document.getElementById("text1").value="" ;
-}*/
 window.onload = () => {
   const code = document.getElementById("code");
   const decipher = document.getElementById('decipher');
+  const reset = document.getElementById("reset");
  
   code.addEventListener("click", () => {
     let stringCode = document.getElementById('textEncryption').value;
@@ -24,6 +22,13 @@ window.onload = () => {
      console.log(result);
   });
 
+  reset.addEventListener('click',() =>{
+    document.getElementById('textEncryption').value = '';
+    document.getElementById('textDecipher').value='';
+    document.getElementById('result').value ='';
+    document.getElementById("offset").value = '';
+
+  });
 };
 
 

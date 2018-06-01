@@ -2,8 +2,11 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Cifrado César</title>
-  <link rel="stylesheet" href="style.css" />
+	<title>Cifrado César</title>
+	<!--Estilo css-->
+	<link rel="stylesheet" href="style.css" />
+	<!--fuentes de texto-->
+	<link href="https://fonts.googleapis.com/css?family=Anton|Arvo|Pacifico" rel="stylesheet">
 </head>
 <body class="structure" ></body>
 
@@ -33,10 +36,11 @@
 		<!-- Creación de TextArea-->
 	<div class="area">
 	<!--Resultado-->
-	<textarea name="resultado" id="result" class="result" cols="30" rows="2" disabled="disabled"></textarea>
+	<textarea name="resultado" id="result" class="result" cols="30" rows="2" disabled="disabled" placeholder="Tu texto cifrado / Descifrado"></textarea>
 			
 	<div class=" num">
-			<h1>Eliga la posición a Cifrar/Descifrar </h1> <input id="offset" type="number" name="points" min="0" max="100" placeholder="numero" >
+			<p> Elija la posición a Cifrar/Descifrar </p>
+			N°<input id="offset" type="number" name="points" min="0" max="100" placeholder="numero">
 	</div>
 	<!--Cifrar-->
 	<textarea id="textEncryption" class="text1" placeholder="Cifrar" rows="2" cols="30"></textarea> 	
@@ -48,7 +52,7 @@
 	<div class="button">
 		<button id="code"> Cifrar</button>
 		<button id="decipher">Descifrar</button>
-		<button id="reset" onclick="EliminarTexto()"> Borrar</button>
+		<button id="reset"> Borrar</button>
 	</div>
 	</section>
 
