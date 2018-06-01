@@ -1,0 +1,65 @@
+commit ff9eb025051b1ef0d8a9eb1925b4bbc93f6a041a
+Author: Keylin_D <keylin.05.01@gmail.com>
+Date:   Fri Jun 1 10:29:13 2018 -0400
+
+    carpeta docs modificada
+
+commit cec38facfccd80ee23198a11d0bf235147629bb8
+Author: Keylin_D <keylin.05.01@gmail.com>
+Date:   Fri Jun 1 09:58:40 2018 -0400
+
+    Ultimos cambios
+
+commit efd41089b6964e0438f1a3271cabbeec96bbd03c
+Author: keylinD <keylin.05.01@gmail.com>
+Date:   Thu May 31 20:48:01 2018 -0500
+
+    cifrado y decifrado funcionando
+
+commit 9bfd02828a4e85ad31bcf6a5f4ce2de9f4880f26
+Author: Keylin_D <keylin.05.01@gmail.com>
+Date:   Thu May 31 12:46:03 2018 -0400
+
+    creacion de la carpeta docs y mover el readme que tenia el proyecto
+
+commit 6c29b2c0dbaf57c8a211dd5ccb230a0237e5e049
+Author: Keylin_D <keylin.05.01@gmail.com>
+Date:   Thu May 31 12:32:47 2018 -0400
+
+    Por fin decifra
+
+commit 96327b5a57d7d121ad094d6edd370ce834c07423
+Author: keylinD <keylin.05.01@gmail.com>
+Date:   Tue May 29 20:51:30 2018 -0500
+
+    cambiando indentacion de 4 espacios a 2
+
+commit f7be5b5d76816be01f08e12c5efd603e89995b64
+Author: keylinD <keylin.05.01@gmail.com>
+Date:   Tue May 29 18:42:01 2018 -0500
+
+    Boton que permite eliminar los datos ingresados
+
+commit b48a750ae73d465e3ef6237772f5e54f10da5723
+Author: Keylin_D <keylin.05.01@gmail.com>
+Date:   Tue May 29 13:03:46 2018 -0400
+
+    diseño de textarea y botones
+
+commit 4cfbeac6634666e499ff29618e541cfacd06c1e7
+Author: Keylin_D <keylin.05.01@gmail.com>
+Date:   Fri May 25 13:04:09 2018 -0400
+
+    creacion de botones y avanzar el css
+
+commit f116a0b13e87a1e16ef400c936b9b2e0a3584657
+Author: Keylin_D <keylin.05.01@gmail.com>
+Date:   Fri May 25 11:50:19 2018 -0400
+
+    Creacion de titulo, subtitulo y textarea
+
+commit 01add0cbc6908f1eeff521b40b8fa4e159f0244c
+Author: nerdale <alexandra.neira@gmail.com>
+Date:   Fri May 18 18:13:43 2018 -0400
+
+    first commit
