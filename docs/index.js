@@ -4,6 +4,7 @@ document.getElementById("reset").value =document.getElementById("text1").value="
 }*/
 window.onload = () => {
   const code = document.getElementById("code");
+  const decipher = document.getElementById('decipher');
  
   code.addEventListener("click", () => {
     let stringCode = document.getElementById('textEncryption').value;
@@ -13,7 +14,17 @@ window.onload = () => {
     document.getElementById("result").innerHTML = result;
     console.log(result);
     }); 
- };
+
+ decipher.addEventListener('click' , () =>{
+    let stringEncode = document.getElementById('textDecipher').value;
+    let offs = parseInt(document.getElementById('offset').value);
+    console.log(offs);
+    let result = window.cipher.decode(offs, stringEncode);
+     document.getElementById('result').innerHTML = result;
+     console.log(result);
+  });
+
+};
 
 
 
@@ -33,10 +44,4 @@ code.addEventListener('click' , () =>{
    document.getElementById('result').innerHTML = result;
 
 })
-code.addEventListener('click' , () =>{
-  let stringEncode = document.getElementById('textDecipher');
-  let offset = parseInt(document.getElementById('offset').value);
-  let result = window.cipher.encode(stringEncode, offset);
-   document.getElementById('result').innerHTML = result;
-
-})*/
+*/

@@ -3,27 +3,37 @@ window.cipher = {
     /* Acá va tu código */
     let result = ""
     
-    for (var i = 0; i < stringCode.length; i++) {
+    for (let i = 0; i < stringCode.length; i++) {
       
       let toasciiCode = stringCode.charCodeAt(i);
       
-    if (64 <= toasciiCode && toasciiCode < 90) {
+    if (64 < toasciiCode && toasciiCode < 90) {
       result += String.fromCharCode((toasciiCode - 65 + parseInt(offset))% 26 + 65);
       
-      }else if ( 97 <= toasciiCode   && toasciiCode < 122) {
+      }else if ( 97 < toasciiCode   && toasciiCode < 122) {
         result += String.fromCharCode((toasciiCode - 97 + parseInt(offset))% 26 + 97);
       }else{
         //result +=stringCode.charAt(i);
         result += String.fromCharCode(toasciiCode);
-      }
-     
-      
+      }      
     }
     return result;
   },
   
   decode: (offset,stringEncode) => {
     /* Acá va tu código */
+    let encoded = ""
+    for (let i = 0; i < stringEncode.length; i++) {
+      let todasciiCode = stringEncode.charCodeAt(i) 
+    if (64 < todasciiCode && todasciiCode <90){
+      encoded += String.fromCharCode((todasciiCode - 90 - parseInt(offset))% 26 + 90);
+    }else if (97 < todasciiCode && todasciiCode < 122){
+      encoded += String.fromCharCode((todasciiCode - 122 - parseInt(offset))% 26 + 122);
+    }else{
+      result += String.fromCharCode(todasciiCode);
+    }      
+  }
+  return encoded;
   }
 }
 
